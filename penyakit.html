@@ -1,0 +1,219 @@
+
+<?php
+if(isset($_COOKIE['userloginmember']) && $_COOKIE['userloginmember'] == 'loginmember'){
+?>
+<!doctype html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="Dhimas">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Menu</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <style>
+        body {
+            position: relative;
+        }
+        .affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+    </style>
+</head>
+<body >
+    <div class="container-fluid" style="background-image:url(img/pd.jpg);color:#fff;height:200px;">
+
+</div>
+<nav class="navbar navbar-default" >
+  <ul class="nav navbar-nav">
+    <li class="active"><a href="index.html">Go-Healthy</a></li>
+    <li><a href="penyakitkepala.php">Penyakit Kepala</a></li>
+    <li><a href="penyakitbadan.php">Penyakit Badan</a></li>
+    <li><a href="penyakitumum.php">Penyakit Umum</a></li>
+  </ul>
+</nav>
+
+    <!-- Content -->
+    <div class="container-fluid" style="height:1000px">
+        <div class="page-header">
+            <h1>What news?</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Kepala Migren</h3>
+                    </div>
+                    <div class="panel-body">
+                        Migren lebih sering terjadi pada perempuan, biasanya ada riwayat keluarga dan sudah mulai pada usia remaja.  
+                        Migren terjadi karena kontraksi dan relaksasi pembuluh darah kepala dan otak.
+                        Migren ditandai sakit kepala satu sisi, timbul berulang, terutama pagi hari, nyeri bisa sedang sampai berat, sifatnya berdenyut,  
+                        berlangsung beberapa jam sampai beberapa hari, aktifitas fisik dapat memperberat keluhan. 
+                        Sering disertai mula-muntah, mata tak tahan cahaya (fotofobia) dan  tak tahan suara bising (fonofobia).
+                        Pemicu migren antara lain : stres, kurang tidur, coklat, haid, alkohol dan pil KB.
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Demam</h3>
+                    </div>
+                    <div class="panel-body">
+                        Demam adalah kondisi ketika suhu tubuh berada di atas 37.5 derajat celsius. Infeksi ringan hingga parah bisa menyebabkan demam. 
+                        Demam merupakan bagian dari proses kekebalan tubuh yang sedang melawan infeksi akibat virus, bakteri atau parasit. 
+                        Selain itu, demam juga bisa terjadi ketika seseorang terlalu lama berada di bawah sinar  matahari atau karena penyakit seperti hipertiroidisme dan artritis.
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Batuk</h3>
+                    </div>
+                    <div class="panel-body">
+                        Tubuh manusia memiliki sistem pertahanan untuk melawan gangguan dari luar. Salah satunya adalah batuk. 
+                        Batuk adalah respons alami yang dilakukan tubuh untuk membersihkan lendir atau faktor penyebab iritasi, seperti debu atau asap, 
+                        agar keluar dari saluran pernapasan kita.
+                        Batuk umumnya akan sembuh dalam waktu tiga minggu dan tidak membutuhkan pengobatan. Keefektifan obat batuk masih belum terbukti sepenuhnya. 
+                        Ramuan buatan sendiri seperti air madu dan lemon bisa membantu meringankan batuk ringan.
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Gatal-Gatal</h3>
+                    </div>
+                    <div class="panel-body">
+                        Kulit gatal atau pruritus adalah kondisi yang sangat umum terjadi. Namun jika terjadi dalam waktu lama dan diiringi gejala lain, 
+                        kondisi tersebut dapat menjadi indikasi penyakit yang lebih serius seperti gangguan ginjal.
+                        Gatal dapat terasa pada area tertentu atau seluruh tubuh. Kulit kemerahan atau ruam adalah gejala yang sering mengiringi rasa gatal. 
+                        Pada umumnya kondisi ini dapat reda dengan sendirinya, atau hilang setelah ditangani dengan obat-obatan bebas. 
+                        Namun ada kalanya, gatal tidak kunjung reda dan berisiko menjadi gejala awal adanya kondisi yang lebih serius.
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Sakit Maag</h3>
+                    </div>
+                    <div class="panel-body">
+                        Sakit maag atau yang dikenal juga sebagai dispepsia, merupakan salah satu masalah kesehatan yang tidak asing lagi di telinga. 
+                        Kondisi ini terjadi berawal ketika radang terjadi pada dinding lambung bagian dalam. 
+                        Radang lambung yang sering atau terus-menerus berlangsung membuat lapisan dinding lambung bagian dalam terkikis 
+                        sehingga terbentuklah luka yang disebut tukak lambung. Rasa sakit seperti perih atau panas dari leher hingga bagian tengah perut, 
+                        merupakan gejala umum dari sakit maag.
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Diare</h3>
+                    </div>
+                    <div class="panel-body">
+                        Diare ditandai dengan encernya tinja yang dikeluarkan atau buang air besar (BAB) dengan frekuensi yang lebih sering dibandingkan dengan biasanya. 
+                        Pada umumnya, diare terjadi akibat konsumsi makanan atau minuman yang terkontaminasi. 
+                        Diare bisa berdampak fatal apabila penderita mengalami dehidrasi akibat kehilangan banyak cairan dari tubuh. 
+                        Maka dari itu, walaupun umum, diare tidak seharusnya dianggap enteng.
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Obat Migren</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>1. Bodrexmigra</li>
+                            <li>2. Oskadon</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Obat Demam</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>1. Termorex</li>
+                            <li>2. Inza</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Obat Batuk</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>1. Laserin</li>
+                            <li>2. OBH-Combi</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Obat Gatal-Gatal</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>1. Ultrasiline</li>
+                            <li>2. Hydrocortisone</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Obat Sakit Maag</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>1. Promag</li>
+                            <li>2. Mylanta</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Obat Diare</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>1. Entrostop</li>
+                            <li>2. Diapet</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <p>njajal</p>
+            </div>
+                
+        </div>
+    </div>
+                
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">GO HEALTH </p>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
+<?php
+} else {
+    header("location:loginmember.php");
+}
+?>
